@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navber{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navber_logo{
+    height:50px ;
+    width: 100px;   
+}
+.border{
+    border: 1.25px solid transparent;
+}
+.border:hover{
+    border: 1.25px solid white;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+/**BOX 2 **/
+.add_f{
+    font-size: 12px;
+    color: #cccccc;
+
+}
+.add_s{
+    color: #ffffff;
+    margin-left: 5px;
+}
+.ad_logo{
+    display: flex;
+
+}
+/** Box 3 **/
+.nav_search{
+    display: flex;
+    height: 40px;
+    width: 440px;
+    border-radius: 7px;
+    justify-content: space-evenly;
+    border: 3px solid transparent;
+}
+.nav_search:hover{
+border: 3px solid rgb(248, 123, 5)
+}
+.option{
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    width: 50px;
+
+}
+.search-input{
+    width: 400px;
+    border: none;
+
+}
+.search_icon{
+    width: 45px;
+    background-color: rgb(248, 123, 5);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/** Box 4 **/
+.hello{
+   
+    color: #ffffff;
+    font-size: 12px;
+}
+.sign-in{
+    
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+/** box 6 **/
+.cart{
+    display: flex;
+}
+.car{
+    margin-left: 3px;
+}
+/** panel **/
+.panel{
+    color: white;
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-menu{
+    display: flex;
+}
+.feature{
+    display: flex;
+    
+    width: 900px;
+}
+.item{
+margin-left: 10px;
+font-size: 13px;
+}
+.all{
+    font-weight: 700;
+    margin-left: 4px;
+}
+/** content **/
+.pictures{
+    height: 500px;
+    background-image: url(pictures.jpg);
+    background-size: cover;
+    position: relative;
+   
+    
+}
+.para{
+    font-size: 14px;
+    background-color: white;
+    border-radius: 7px;
+    color: black;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    
+}
+.para a{
+    margin-left: 3px;
+    color: blue;
+}
+
+ 
+.box1{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    border: 1.5px solid black;
+    margin-top: 20px;
+    border: none;
+    
+}
+.box{
+    display: flex;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+    
+}
+.image-con{
+    background-image: url(tiger_ph.jpg.jpg);
+    background-size: cover;
+    height: 330px;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+.link{
+    text-decoration: none;
+    margin-left: 23px;
+    font-size: 16px;
+   
+}
+.image-con1{
+    background-image: url(aot_ph.jpg);
+    background-size: cover;
+    height: 330px;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+.image-con2{
+    background-image: url(nature.jpg.jpg);
+    background-size: cover;
+    height: 330px;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+.image-con3{
+    background-image: url(dragon_ph.jpg);
+    background-size: cover;
+    height: 330px;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
